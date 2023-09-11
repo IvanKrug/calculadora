@@ -6,7 +6,7 @@ h1 {
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: #f6f5f7; 
+    background: #d2fafb; 
     color: #3E363F;
 }
 
@@ -20,8 +20,7 @@ body{
     margin: auto;
     border-radius: 10px;
    overflow: hidden;
-   box-shadow: 0 14px rgba(0, 0, 0, 0,25), 0 10px 10px rgba(0, 0, 0, 0.22);
-
+   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
 }
 
 #calculadora{
@@ -33,12 +32,12 @@ body{
 }
 
 #detalle{
-    background: #FF416C;
-  
+    background: #76e2f4;
+ 
     width: 50%;
     height: 100%;
     float: left;
-    color: #f6f5f7;
+    color: #f4f4ec;
 }
 
 .contenido{
@@ -54,21 +53,27 @@ input {
     width: 70%;
     padding: 12px 15px;
     border: none;
-    background-color: #eee;
+    background-color: #dadada;
 }
 
 button{
-    font-size: 15px;
+    cursor: pointer;
+    margin-top: 15px;
+  
 	font-weight: bold;
-	padding: 12px 45px;
-	border-radius: 30px;
-	background-color: #FF416C;
-	border: 1px solid #FF416C;
+	padding: 12px 12px;
+	border-radius: 10px;
+	background-color: #7fa6ee;
+	border: 1px solid #1f1114;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	transition: transform 20ms ease-in;
 }
+button:hover{
+    background-color:#5082dd ;
+}
+
 
 button:active {
     transform: scale(0.95);
@@ -78,6 +83,7 @@ button:active {
     color: red;
     font-weight: bold;
     display: none;
+    font-size: 14px;
 }
 
 .resultado{
@@ -94,8 +100,20 @@ button:active {
  }
 
  .lista {
+    text-align: start;
     color: #3E363F;
     font-weight: bolder;
     font-size: 15px;
+    
 
  }
+
+.definicion {
+    font-size: medium;
+    color: #0A81D1;
+}
+
+.explicacion {
+    font-size: small;
+    color: black;
+}
